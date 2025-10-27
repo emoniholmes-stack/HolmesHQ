@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f3ece0; /* soft cream */
+  color: #4b3f2f; /* dark brown text */
+  text-align: center;
+  padding: 50px;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #6b4f3f; /* warm brown */
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  color: #5a4a36; /* muted brown */
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+/* Links */
+a {
+  color: #7b6c53; /* earthy muted green */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a79b82; /* light earthy tone on hover */
+}
+
+/* Buttons (optional) */
+button {
+  background-color: #8b7d6b; /* muted brown */
+  color: #f3ece0; /* cream text */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #a79b82; /* lighter earthy hover */
+}
+
+/* Add a subtle container effect */
+.con
