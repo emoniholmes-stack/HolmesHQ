@@ -52,3 +52,10 @@ a:hover {
 .button-link:hover {
   background-color: #a79b82; /* lighter earthy hover */
 }
+.profile-photo {
+  width: 200px;      /* adjust as needed */
+  height: auto;
+  border-radius: 50%; /* makes it circular */
+  margin: 20px 0;     /* space above and below */
+  border: 3px solid #8b7d6b; /* earthy border */
+}
