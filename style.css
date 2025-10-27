@@ -36,3 +36,19 @@ a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+/* Button Styles for Social Links */
+.button-link {
+  display: inline-block;
+  background-color: #8b7d6b; /* muted brown */
+  color: #f3ece0; /* cream text */
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #a79b82; /* lighter earthy hover */
+}
