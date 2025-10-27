@@ -37,13 +37,13 @@ a:hover {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Profile Photo */
+/* Profile Photo - square 4x6-ish */
 .profile-photo {
-  width: 120px;      /* smaller size */
-  height: auto;
-  border-radius: 50%;
+  width: 240px;       /* adjust width */
+  height: 360px;      /* adjust height for 4x6 ratio */
+  object-fit: cover;  /* ensures image fills the box without distortion */
   margin: 15px 0;
-  border: 3px solid #8b7d6b;
+  border: 3px solid #8b7d6b; /* earthy border */
 }
 
 /* Social Links as Buttons */
