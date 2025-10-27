@@ -37,12 +37,12 @@ a:hover {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Profile Photo - square 4x6-ish */
+/* Profile Photo - larger square */
 .profile-photo {
-  width: 240px;       /* adjust width */
-  height: 360px;      /* adjust height for 4x6 ratio */
+  width: 300px;       /* bigger width */
+  height: 400px;      /* 4x6-ish ratio */
   object-fit: cover;  /* ensures image fills the box without distortion */
-  margin: 15px 0;
+  margin: 20px 0;     /* space above and below */
   border: 3px solid #8b7d6b; /* earthy border */
 }
 
