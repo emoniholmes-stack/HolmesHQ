@@ -8,13 +8,11 @@ body {
   line-height: 1.6;
 }
 
-/* Headings */
 h1, h2, h3 {
   color: #6b4f3f; /* warm brown */
   margin-bottom: 20px;
 }
 
-/* Paragraphs */
 p {
   font-size: 18px;
   color: #5a4a36; /* muted brown */
@@ -22,7 +20,6 @@ p {
   margin: 0 auto 20px auto;
 }
 
-/* Links */
 a {
   color: #7b6c53; /* earthy muted green */
   text-decoration: none;
@@ -30,24 +27,12 @@ a {
 }
 
 a:hover {
-  color: #a79b82; /* light earthy tone on hover */
+  color: #a79b82; /* lighter earthy tone */
 }
 
-/* Buttons (optional) */
-button {
-  background-color: #8b7d6b; /* muted brown */
-  color: #f3ece0; /* cream text */
-  border: none;
-  padding: 10px 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
+.container {
+  background-color: #e6dfd3; /* soft beige */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-
-button:hover {
-  background-color: #a79b82; /* lighter earthy hover */
-}
-
-/* Add a subtle container effect */
-.con
