@@ -36,7 +36,17 @@ a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-/* Button Styles for Social Links */
+
+/* Profile Photo */
+.profile-photo {
+  width: 120px;      /* smaller size */
+  height: auto;
+  border-radius: 50%;
+  margin: 15px 0;
+  border: 3px solid #8b7d6b;
+}
+
+/* Social Links as Buttons */
 .button-link {
   display: inline-block;
   background-color: #8b7d6b; /* muted brown */
@@ -51,11 +61,4 @@ a:hover {
 
 .button-link:hover {
   background-color: #a79b82; /* lighter earthy hover */
-}
-.profile-photo {
-  width: 200px;      /* adjust as needed */
-  height: auto;
-  border-radius: 50%; /* makes it circular */
-  margin: 20px 0;     /* space above and below */
-  border: 3px solid #8b7d6b; /* earthy border */
 }
