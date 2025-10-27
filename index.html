@@ -1,24 +1,131 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emoni's Website</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); /* cursive font */
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ee; /* soft earthy tone */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #8b5e3c; /* deep earthy brown */
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .name {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  nav {
+    background-color: #a67c52; /* slightly lighter earthy brown */
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #6b4f36; /* darker brown on hover */
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f4f1ee; /* match page background */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .tagline {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .profile-photo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px; /* adjust size */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to My Website</h1>
-    <p>Faith-Driven Ideas, Business-Minded Results.</p>
-    
-    <!-- Profile photo below tagline -->
-    <img src="profile.jpg" alt="Emoni Holmes" class="profile-photo">
-    
-    <!-- Social links as buttons -->
-    <p>Connect with me: 
-      <a href="https://www.instagram.com/emoni_holmes17" target="_blank" class="button-link">Instagram</a>
-      <a href="mailto:emoniholmes@trinitybiblecollege.com" class="button-link">Email</a>
-    </p>
+
+<header>
+  <h1>Hi I am <span class="name">Emoni</span></h1>
+  <div class="tagline">Your tagline goes here</div>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+      <a href="about.html">About / Bio</a>
+      <a href="resume.html">Resume / CV</a>
+      <a href="projects.html">Projects / Work</a>
+      <a href="skills.html">Skills / Expertise</a>
+      <a href="blog.html">Blog / Thoughts</a>
+      <a href="contact.html">Contact</a>
+      <a href="portfolio.html">Portfolio Gallery / Media</a>
+    </div>
   </div>
+</nav>
+
+<img src="yourphoto.jpg" alt="Profile Photo" class="profile-photo">
+
 </body>
 </html>
