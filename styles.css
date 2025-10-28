@@ -59,8 +59,8 @@ h1, h2, h3 {
 
 /* Profile Photo */
 .profile-photo {
-  width: 240px;
-  height: 360px;
+  width: 160px;   /* smaller width for 4x6-ish size */
+  height: 240px;  /* smaller height for 4x6-ish size */
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 20px;
