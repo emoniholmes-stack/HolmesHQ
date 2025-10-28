@@ -39,10 +39,13 @@ h1, h2, h3 {
   background-color: #4b3f2f;
 }
 
+/* Submenu spacing */
 .submenu {
   display: none;
   flex-direction: column;
   margin-left: 10px;
+  justify-content: space-between; /* evenly spaces links vertically */
+  height: 100%; /* full sidebar height */
 }
 
 .menu-title:hover + .submenu,
