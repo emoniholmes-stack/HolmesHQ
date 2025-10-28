@@ -5,6 +5,9 @@ body {
   color: #4b3f2f;
   margin: 0;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -55,15 +58,18 @@ h1, h2, h3 {
   margin-left: 260px;
   padding: 50px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
 }
 
 /* Photo Container */
 .photo-container {
-  width: 160px;       /* target 4x6 width */
-  height: 240px;      /* target 4x6 height */
+  width: 160px;
+  height: 240px;
   overflow: hidden;
   margin: 0 auto 20px auto;
-  border-radius: 8px;
 }
 
 /* Profile Photo */
@@ -81,12 +87,25 @@ h1, h2, h3 {
   color: #4b3f2f;
 }
 
-/* Contact Links */
-.contact-links a {
-  color: #6b4f3f;
+/* Button Links */
+.button-links {
+  margin-top: auto; /* pushes it to the bottom of the content */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.button-links a {
+  background-color: #6b4f3f;
+  color: #f3ece0;
+  padding: 12px 24px;
   text-decoration: none;
   font-size: 18px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
 }
-.contact-links a:hover {
-  text-decoration: underline;
+
+.button-links a:hover {
+  background-color: #4b3f2f;
 }
