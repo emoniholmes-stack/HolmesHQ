@@ -1,64 +1,64 @@
 /* Global Styles */
 body {
   font-family: 'Georgia', serif;
-  background-color: #f3ece0; /* soft cream */
-  color: #4b3f2f; /* dark brown text */
+  background-color: #f3ece0;
+  color: #4b3f2f;
   text-align: center;
   padding: 50px;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
-  color: #6b4f3f; /* warm brown */
+  color: #6b4f3f;
   margin-bottom: 20px;
 }
 
 p {
   font-size: 18px;
-  color: #5a4a36; /* muted brown */
+  color: #5a4a36;
   max-width: 700px;
   margin: 0 auto 20px auto;
 }
 
 a {
-  color: #7b6c53; /* earthy muted green */
+  color: #7b6c53;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #a79b82; /* lighter earthy tone */
+  color: #a79b82;
 }
 
 .container {
-  background-color: #e6dfd3; /* soft beige */
+  background-color: #e6dfd3;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Profile Photo - larger square */
+/* Updated Profile Photo */
 .profile-photo {
-  width: 300px;       /* bigger width */
-  height: 400px;      /* 4x6-ish ratio */
-  object-fit: cover;  /* ensures image fills the box without distortion */
-  margin: 20px 0;     /* space above and below */
-  border: 3px solid #8b7d6b; /* earthy border */
+  width: 240px;       /* Perfect mid-size */
+  height: 320px;      /* 4x6 ratio */
+  object-fit: cover;
+  margin: 20px auto;
+  border: 3px solid #8b7d6b;
+  display: block;
 }
 
 /* Social Links as Buttons */
 .button-link {
   display: inline-block;
-  background-color: #8b7d6b; /* muted brown */
-  color: #f3ece0; /* cream text */
+  background-color: #8b7d6b;
+  color: #f3ece0;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 8px;
   border-radius: 5px;
-  text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s;
 }
 
 .button-link:hover {
-  background-color: #a79b82; /* lighter earthy hover */
+  background-color: #a79b82;
 }
