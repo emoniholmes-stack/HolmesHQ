@@ -59,11 +59,15 @@ h1, h2, h3 {
 
 /* Profile Photo */
 .profile-photo {
-  width: 160px;   /* smaller width for 4x6-ish size */
-  height: 240px;  /* smaller height for 4x6-ish size */
+  width: 160px;        /* 4x6-ish width */
+  height: auto;        /* auto height to scale proportionally */
+  max-height: 240px;   /* roughly 4x6 ratio */
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Tagline */
