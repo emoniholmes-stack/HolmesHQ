@@ -59,8 +59,8 @@ h1, h2, h3 {
 
 /* Photo Container */
 .photo-container {
-  width: 160px;
-  height: 240px;
+  width: 200px;
+  height: 280px; /* 5x7-ish ratio */
   overflow: hidden;
   margin: 0 auto 20px auto;
 }
