@@ -57,17 +57,21 @@ h1, h2, h3 {
   text-align: center;
 }
 
+/* Photo Container */
+.photo-container {
+  width: 160px;       /* target 4x6 width */
+  height: 240px;      /* target 4x6 height */
+  overflow: hidden;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+}
+
 /* Profile Photo */
 .profile-photo {
-  width: 160px;        /* 4x6-ish width */
-  height: auto;        /* auto height to scale proportionally */
-  max-height: 240px;   /* roughly 4x6 ratio */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Tagline */
