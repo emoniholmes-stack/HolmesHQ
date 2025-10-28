@@ -93,19 +93,4 @@ h1, h2, h3 {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-top: 40px;
-}
-
-.button-links a {
-  background-color: #6b4f3f;
-  color: #f3ece0;
-  padding: 12px 24px;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 6px;
-  transition: background-color 0.3s;
-}
-
-.button-links a:hover {
-  background-color: #4b3f2f;
-}
+  padding-top:
