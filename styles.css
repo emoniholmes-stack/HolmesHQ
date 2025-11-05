@@ -39,7 +39,7 @@ h1, h2, h3 {
   background-color: #4b3f2f;
 }
 
-/* Submenu spacing */
+/* Submenu spacing and hover */
 .submenu {
   display: none;
   flex-direction: column;
